@@ -1,0 +1,11 @@
+1 - tiny_mce->plugins->tinybrowser
+
+2 - initTiny-> file_browser_callback : "tinyBrowser",
+
+3 - config_tinybrowser->
+$tinybrowser['path']['image'] = '/pasta que deseja guardar suas fotos/'; // Image files location - also creates a '_thumbs' subdirectory within this path to hold the image thumbnails
+$tinybrowser['path']['media'] = '/pasta que deseja guardar suas fotos/'; // Media files location
+$tinybrowser['path']['file']  = '/pasta que deseja guardar suas fotos/'; // Other files location
+
+4 - Após chamar ao tiny_mce->
+<script type="text/javascript" src="../../bibliotecas/tiny_mce/plugins/tinybrowser/tb_tinymce.js.php"></script>

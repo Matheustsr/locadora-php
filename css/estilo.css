@@ -1,0 +1,299 @@
+*{
+    margin:0 auto;
+    padding:0;
+    border:0;
+}
+body{
+    background-image:url('../imagens/background.jpg');
+    background-repeat:repeat-x;
+    background-color:#ededed;
+    font-family:'Cuprum';
+    font-size:12px;
+    text-align:center;
+}
+
+/*Topo do Site*/
+#topo{
+    width:960px;
+    height:90px;
+    margin:0 auto;
+}
+#topo .logo{
+    width:200px;
+    height:70px;
+    float:left;
+    margin:10px 0 0 10px;
+}
+#topo .menu{
+    width:730px;
+    height:40px;
+    float:left;
+    margin:40px 0 0 10px;
+    text-align: center;
+}
+
+#topo ul{
+    list-style:none;
+    width:720px;
+    margin:20px 0 0 10px;
+}
+#topo ul li{
+    display:inline;
+    font-family:'Cuprum';
+    font-size:18px;
+}
+#topo ul li a{
+    text-decoration:none;
+    color:#FFF;
+    margin:0 0 0 10px;
+}
+#topo ul li:last-child a{color: #000;}
+#topo ul li a:hover{
+    text-decoration:underline;
+}
+/*Fim do Topo do Site*/
+
+/*Conteudo do Site vai todo aqui*/
+#tudo{
+    width:960px;
+    margin:0 auto 20px auto;
+}
+
+/*Sidebar do Site*/
+#sidebar{
+    width:160px;
+    margin:20px 0 0 0;
+    float:left;
+}
+#sidebar .genero{
+    width:160px;
+    background:#FFF;
+    border:1px solid #CCC;
+}
+#sidebar h2{
+    font-size:17px;
+    color:#434343;
+    text-align:left;
+    margin:5px 0 0 5px;
+    border-bottom:2px solid #434343;
+    width:150px;
+}
+#sidebar ul{
+    list-style:none;
+    margin:5px 0 0 0;
+}
+#sidebar ul li{
+    display:block;
+    font-size:15px;
+    text-align:left;
+    margin:4px 0 0 0;
+    width:160px;
+}
+
+#sidebar ul li:hover{
+    background:#ccc;
+}
+#sidebar ul li a{
+    margin:3px 0 0 8px;
+    text-decoration:none;
+    color:#000;
+}
+
+#sidebar .pesquisa{
+    width:160px;
+    background:#fff;
+    border:1px solid #ccc;
+    height:70px;
+    margin:5px 0 0 0;
+}
+#sidebar .btpesquisa{
+    width:110px;
+    height:20px;
+    border:1px solid #333;
+    margin:10px 0 0 0;
+    font-family: 'Cuprum';
+}
+#sidebar .btok{
+    width:30px;
+    height:22px;	
+    background:#333;
+    text-align:center;
+    font-size:16px;
+    color:#FFF;
+    margin:10px 0 0 3px;
+    font-family: 'Cuprum';
+}
+
+#sidebar .login{
+    width:160px;
+    background:#FFF;
+    border:1px solid #ccc;
+    margin:5px 0 0 0;
+    text-align: left;
+}
+
+#sidebar .cadastro{
+    width:160px;
+    height:270px;
+    border:1px solid #ccc;
+    background:#FFF;
+    margin:5px 0 0 0;
+}
+
+#sidebar .newslleter{
+    width:160px;
+    height:110px;
+    border:1px solid #ccc;
+    background:#FFF;
+    margin:5px 0 0 0;
+    text-align: left;
+}
+
+#sidebar .opnioes{
+    width:160px;
+    border:1px solid #ccc;
+    background:#FFF;
+    margin:5px 0 0 0;	
+}
+
+/*Fim da Sidebar*/
+
+/*Conteudo Geral do site, destaques, noticias, etc...*/
+#conteudo{
+    width:780px;
+    float:right;
+    margin:5px 0 0 20px;
+}
+#conteudo .ptcima{
+    width:780px;
+    height:40px;
+}
+
+#conteudo .ptcima img{border: solid 1px #ccc;}
+
+#conteudo .destaques{
+    width:780px;
+    margin:25px 0 0 0;
+    cursor: pointer;cursor:hand;
+}
+
+#conteudo .lancamentos{
+    width:780px;
+    background:#fff;
+    border:1px solid #CCC;
+    margin:10px 0 0 0;
+}
+#conteudo #listar_lancamentos{margin-top: 10px;width: 780px;}
+#listar_lancamentos #nome_filme{position: relative;top: 10px;}
+
+#listar_recomendados li{float: left;margin-left: 18px;width: 110px;margin-top: 10px;padding: 5px 0;}
+#listar_recomendados li img{border:solid 1px #000;}
+
+#conteudo .en{
+    width:780px;
+    margin:10px 0 0 0;
+}
+#conteudo .publicidade{
+    width:300px;
+    height:240px;
+    background:#fff;
+    border:1px solid #CCC;
+    float:left;
+}
+/*H3 referente ao titulo das enquetes*/
+#conteudo h3{
+    font-size:17px;
+    color:#434343;
+    text-align:left;
+    margin:5px 0 0 5px;
+    border-bottom:2px solid #434343;
+    width:96%;
+}
+/*H3 referente ao titulo das noticias*/
+#conteudo h4{
+    font-size:17px;
+    color:#434343;
+    text-align:left;
+    margin:5px 0 0 5px;
+    border-bottom:2px solid #434343;
+    width:98%;
+}
+#conteudo h6{
+    font-size:16px;
+    text-align:left;
+    margin:5px 0 0 5px;
+    color:#333;
+}
+#conteudo form{
+    font-size:14px;
+    text-align:left;
+    margin:5px 0 5px 10px;
+}
+#conteudo input{
+    margin:0 0 7px 0;
+}
+#conteudo .noticias{
+    width:460px;
+    background:#fff;
+    border:1px solid #CCC;
+    margin:0 0 0 320px;
+}
+#conteudo ul{
+    list-style:none;
+}
+#conteudo .noticias ul li{
+    display:block;
+    font-size:13px;
+    border-bottom:1px solid #CCC;
+    margin:3px 5px 11px 5px;
+    text-align:left;
+    padding: 3px 0;
+}
+#conteudo .noticias ul li a{
+    color:#000;
+    text-decoration:none;   
+}
+#conteudo .noticias ul li a:hover{
+    text-decoration:underline;
+}
+#conteudo .vejamais{
+    font-size:20px;
+    color:#000;
+    text-align:center;
+}
+#conteudo .vejamais a{
+    color: #000;
+
+}
+#conteudo .filmesmenu{
+    width:780px;
+    background:#fff;
+    border:1px solid #CCC;
+    margin-top: 10px;
+}
+#conteudo h2{
+    font-size:17px;
+    color:#434343;
+    text-align:left;
+    margin:5px 0 0 5px;
+    border-bottom:2px solid #434343;
+    width:770px;
+}
+
+/*Fim do Conteudo Geral*/
+
+/*Fim do Conteudo do Site*/
+
+/*Rodape do Site*/
+#rodape{
+    width:100%;
+    background-image:url('../imagens/bgrodape.jpg');
+    background-repeat:repeat-x;
+    text-align:center;
+    clear:both;
+    position: relative;
+    top: 50px;
+    font-size: 18px;
+    padding: 10px;
+}
+/*Fim do Rodape*/

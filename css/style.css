@@ -1,0 +1,177 @@
+#erro404{font-size: 18px;margin-top: 20px;}
+#pagina{width:780px;margin:10px 0 0 10px;background-color: #FFF;border: solid 1px #ccc;text-align: left;padding:3px;}
+#pagina .paginacao{font-size: 18px;margin-top: 20px;width: 780px;text-align: center;color: #000;clear: both;}
+#pagina .paginacao a{text-decoration: none;color: #000;}
+.button_sidebar{background-color: #333;color: #FFF;border: solid 1px #333;font-family: 'Cuprum';margin-top: 3px;margin-bottom: 3px;padding:2px;width: 80px;text-align: left;}
+.mensagem{font-size: 18px;width: 780px;text-align: center;}
+.mensagem a{color: #000;}
+#pedido_link a{color: #900;}
+.input_text{width: 400px;border:solid 1px #ccc;height: 25px;font-family: 'Cuprum'}
+.input_submit{width: 100px;border:solid 1px #ccc;background-color: #000;font-family: 'Cuprum';margin-top: 50px;color: #FFF;padding:5px;}
+.input_textarea{width: 400px;border:solid 1px #ccc;font-family: 'Cuprum';height: 120px;}
+
+/*CATEGORIA*/
+.filmes_categoria{width: 250px;float: left;border: solid 1px #ccc;margin: 5px 4px;}
+.filmes_categoria h3{border-bottom:2px solid #434343;width: 240px;}
+.filmes_categoria .foto_filme_categoria{text-align: center;margin-top: 5px;}
+.filmes_categoria .dados_filme{text-align: center;font-size: 16px;margin-top:10px;}
+.fix{clear: both;}
+#pagina .erro_categoria{width:780px;text-align: center;font-size: 16px;margin-top: 5px;}
+#pagina a.bt_detalhes{color: #000;text-decoration: none;}
+.locar_filme{text-decoration: none;color: #000;}
+/*CATEGORIA*/
+
+/*FILME ESCOLHIDO(DETALHES)*/
+#foto_descricao{width: 780px;}
+#sugestoes_comentarios{width: 780px;margin-top: 20px;}
+#foto_detalhes_filme{margin-top: 10px;margin-left: 5px;width: 300px;float: left;}
+#descricao_filme{margin-top: 10px;margin-left: 5px;width: 450px;float: right;font-size: 14px;padding:5px 0;}
+#filme_detalhes{width:185px;margin-top: 10px;float: left;}
+#filme_detalhes ul{list-style: none;margin-top: 10px;background-color: #EFEFEF;}
+#filme_detalhes li{font-size: 16px;margin-bottom: 5px;margin-left: 5px;}
+#sugestoes_filmes{clear: both;}
+#comentarios{margin-top: 20px;}
+#comentarios #form_comentarios{clear: both;margin-top: 20px;}
+#comentarios #form_comentarios label{display:block;}
+#comentarios #form_comentarios .input_text{width: 400px;border:solid 1px #ccc;height: 25px;font-family: 'Cuprum'}
+#comentarios #form_comentarios .input_submit{width: 100px;border:solid 1px #ccc;background-color: #ccc;font-family: 'Cuprum';margin-top: 5px;}
+#comentarios #form_comentarios .input_textarea{width: 400px;border:solid 1px #ccc;font-family: 'Cuprum';height: 120px;}
+#foto_detalhes_filme #botao_locar{position: relative;width: 112px;float: right;margin-top: 20px;}
+#trailers{margin-top: 20px;border: solid 2px #000;width: 435px;}
+.faixa_locado{position: absolute;margin-top:33px;margin-left: 35px;}
+/*FILME ESCOLHIDO(DETALHES*/
+
+
+/*LOGIN SIDEBAR*/
+.login label{display: block;}
+.login .text_login{width: 145px;height: 20px;border: solid 1px #CCC;font-family: 'Cuprum';}
+.login #form_login_sidebar{margin-top: 10px;margin-left: 5px;padding: 3px 0;}
+#erroLogin{margin-top: 3px;width: 145px;}
+/*LOGIN SIDEBAR*/
+
+/*COMENTARIOS*/
+#sem_comentarios{margin-left: 5px;font-size: 18px;}
+.sucesso{font-size: 18px;}
+#pagina #erroComentario{font-size: 18px;clear: both;}
+#mensagens_comentarios a{font-size: 18px;color: #000;}
+.listar_comentarios{background-color: #EFEFEF;width: 700px;margin-top: 10px;padding: 5px;font-size: 14px;}
+.listar_comentarios .data_comentario{font-size: 12px;}
+.listar_comentarios .foto_cliente{width: 37px;height: 36px;float: left;}
+.listar_comentarios .comentarios_cliente{width: 650px;float: right;}
+.mensagens{font-size: 18px;margin-left: 5px;}
+.mensagens a{text-decoration: underline;color: #000;}
+.edit_comentario{position: relative;color: #333;width: 50px;float: right;right:2px;top: 5px;clear: both;}
+.editar_comentario_jquery{display: none;clear: both;width: 600px;margin-top: 10px;}
+/*COMENTARIOS*/
+
+/*BUSCA*/
+#erroBusca{font-size: 18px;width: 780px;text-align: center;margin-top:10px;}
+/*BUSCA*/
+
+/*NEWSLETTER*/
+#form_newsletter_sidebar{margin-top: 10px;margin-left: 5px;}
+.text_newsletter{width: 145px;border: solid 1px #CCC;font-family: 'Cuprum';padding: 3px 0;}
+/*NEWSLETTER*/
+
+/*OPINIOES*/
+#opinioes_sidebar{margin-top: 10px;margin-left: 5px;text-align: left;}
+#opinioes_sidebar p{margin-top:5px;padding-right: 3px;padding-bottom: 3px;}
+#opinioes_sidebar p a{color: #000;}
+/*OPINIOES*/
+
+
+/*NOTICIA*/
+#noticia{margin-top: 10px;font-size: 18px;padding:5px;}
+.exibeNoticia{margin:20px 0;border-bottom: dotted 1px #ccc;}
+.exibeNoticia p{margin-top:10px;margin-bottom: 10px;margin-left: 5px;}
+.exibeNoticia .leiaMais{font-size: 16px;font-weight: bold;color: #333;}
+.exibeNoticia .leiaMais a{color: #333;}
+/*NOTICIA*/
+
+
+/*VERIFICA LOGADO*/
+#logar_cliente{width: 780px;margin: 0 auto;text-align: center;margin-top: 10px;}
+#logar{width: 380px;float: left;background-color:#2B6893;color: #FFF;}
+#cadastrar{width: 380px;float: right;background-color:#FFF;color: #000;text-align: left;}
+#logar_cliente label{display: block;}
+#logar_cliente .text_login{border: solid 1px #ccc;width: 250px;height: 25px;font-family: 'Cuprum';}
+#logar_cliente .button_logar_cliente{border: solid 1px #2B6893;background-color: #FFF;color: #000;font-family: 'Cuprum';}
+#logar_cliente .mensagem{font-size: 18px;width: 380px;text-align: center;}
+#logar_cliente #mensagem_logar{font-size: 14px;text-align: left;padding: 10px;}
+#logar_cliente #mensagem_cadastrar{font-size: 14px;text-align: left;padding: 10px;}
+#logar_cliente #mensagem_cadastrar a{color: #000;}
+#logar_cliente #logar h4{color: #FFF;border-bottom: solid 1px #FFF;}
+#logar_cliente #cadastrar h4{color: #000;}
+#mensagem_logado{width: 770px;text-align: left;padding: 5px;margin-top: 10px;font-size: 16px;}
+#logado_cliente{width: 780px;font-size: 18px;text-align: center;margin-top: 10px;}
+#erro_acessar_filmes{width: 780px;font-size: 18px;text-align: center;margin-top: 20px;}
+/*VERIFICA LOGADO*/
+
+
+/*MEUS FILMES*/
+.filmes_locados_mes{margin-top: 20px;}
+.lista_filmes_locados_mes{margin-left: 10px;font-size: 16px;}
+#div_filmes_locados_mes{margin-top: 10px;font-size: 15px;}
+tr.tabela_filmes_locados td{border-bottom: dotted 1px #ccc;padding: 5px 0;font-size: 15px;}
+thead{font-size: 18px;}
+#tabela_meus_filmes{margin-top: 10px;}
+.total_meus_filmes{font-size: 18px;padding-top: 10px;}
+.total_meus_filmes a{color: #000;}
+#titulo_tip{font-size: 16px;}
+.mensagem_erro_meus_filmes{font-size: 18px;}
+.entrega{background-color: #ccc;border-top: dotted 1px #ccc;margin-top: 10px;padding:10px;font-size: 18px;}
+.entrega form{font-size: 18px;}
+#escolhas_entrega{width: 560px;float: right;background-color:wheat;border: solid 1px #999;}
+/*MEUS FILMES*/
+
+/*MINHA CONTA*/
+#comentarios_cliente{margin:30px 0 10px 0;}
+#comentarios_cliente td{font-size: 16px;}
+#comentarios_cliente a{text-decoration: none;color:#000;}
+#comentarios_cliente a:hover{text-decoration: underline;}
+.Pagination_comentarios{margin-top: 5px;}
+.tabela_meus_dados{margin-top: 10px;font-size: 18px;}
+#locados_mes{margin-top: 20px;clear: both;}
+#filme_devolver{margin-top: 20px;}
+#filme_devolver tr.lista_filmes_devolver{font-size: 16px;}
+#opcoes_cliente{font-size: 16px;margin: 10px 0 0 5px;width: 150px;float: right;}
+#opcoes_cliente a{color: #900;}
+.lista_filmes_devolver a{color: #900;}
+/*MINHA CONTA*/
+
+/*CADASTRO*/
+#form_cadastro{margin-top: 20px;}
+#form_cadastro label{display: block;}
+#form_cadastro .input{width: 300px;border: solid 1px #ccc;height: 25px;font-family: 'Cuprum';}
+#form_cadastro .input_menor{width: 150px;border: solid 1px #ccc;height: 25px;font-family: 'Cuprum';}
+#form_cadastro .input_button{background-color: #000;color:#FFF;width: 100px;font-family: 'Cuprum';}
+/*CADASTRO*/
+
+
+/*CONTATO*/
+#contato{margin-top: 10px;font-size: 18px;}
+#contato label{font-size: 18px;display: block;}
+/*CONTATO*/
+
+
+.ui-tooltip-wiki{
+	max-width: 440px;
+}
+
+	.ui-tooltip-wiki .ui-tooltip-content{
+		padding: 10px;
+		
+		line-height: 12.5px;
+	}
+
+	.ui-tooltip-wiki h1{
+		margin: 0 0 7px;
+
+		font-size: 1.5em;
+		line-height: 1em;
+	}
+
+	.ui-tooltip-wiki img{ padding: 0 10px 0 0; }
+	
+	.ui-tooltip-wiki p{ margin-bottom: 9px; }
+	.ui-tooltip-wiki .note{ margin-bottom: 0; font-style: italic; color: #888; }

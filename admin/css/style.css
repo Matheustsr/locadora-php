@@ -1,0 +1,9 @@
+*{margin:0;padding:0;}
+#login{width:220px;margin:0 auto;font-family: "Arial";margin-top:10px;}
+#form_login{width:208px;background-color: #ccc;padding:10px;}
+#login{}
+#login label{display:block;}
+#login input{margin-bottom:5px; }
+#login .input_login{width:200px;height:20px;}
+#login #botao_logar{background-color: #333;color: #FFF;width:205px;padding:3px;border: solid 1px #333;}
+#mensagem{width:208px;background-color: #FFF;color: #333;text-align: center;}

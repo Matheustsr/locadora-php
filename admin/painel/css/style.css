@@ -1,0 +1,46 @@
+*{margin:0;padding:0;}
+.erro{width:600px;text-align: center;font-size:18px;background-color: #900;padding: 3px;color: #FFF;margin-top:5px;}
+.sucesso{width:600px;text-align: center;font-size:18px;background-color:green;padding: 3px;color: #FFF;margin-top: 5px;}
+.vencido{font-size: 18px;color: #FFF;}
+.devolvido{font-size: 18px;color: #FFF;}
+.locado{font-size: 18px;color: #FFF;}
+.tb_locado{background-color:firebrick;color: #FFF;}
+.tb_devolvido{background-color: #549332;color: #FFF;}
+.tb_filme_locado{background-color:lemonchiffon;}
+#dados_filmes_locados a{text-decoration: none;color:#FFF;}
+.ordenar{margin: 10px;font-family: 'Cuprum';width: 600px;}
+#select_ordenar{width: 300px;height: 25px;font-size: 18px;font-family: 'Cuprum';}
+#select_orderby{width: 160px;height: 25px;font-size: 18px;font-family: 'Cuprum';}
+.novo{background-color:#900;color: #FFF;}
+.respondido{background-color:#549332;color:#FFF;}
+a#responder{color: #FFF;text-decoration: underline;}
+
+/*MENU*/
+.submenu{display: none;z-index: 1000;width: 300px;}
+.typo:hover .submenu{display:block;position: absolute;left:200px;top:0;}
+/*MENU*/
+
+/*DADOS CLIENTE*/
+#dados_cliente{width: 1100px;font-family: 'Cuprum'}
+#foto{width: 90px;margin-top: 20px;float: left;}
+#foto img{border: solid 1px #333;}
+#dados{width:1000px;float: right;text-align: left;margin-top: 10px;font-size: 16px;}
+#enviarEmail{margin-top: 20px;}
+#mais_locados_cliente{clear: both;position: relative;top:30px;}
+#grafico_indisponivel{color: #900;margin-top: 20px;width: 1100px;text-align: center;font-size: 18px;}
+/*DADOS CLIENTE*/
+
+/*FILMES*/
+label{display: block;}
+#input_cliente{width: 150px;height: 25px;font-family: 'Cuprum';}
+#mensagem_filme_locado{position: fixed!important;width: 100%;text-align: center;font-size: 18px;top:35px;left: 0;z-index: 100;}
+#msg_filme_locado{background-color: #549332;color: #FFF;padding: 5px;}
+/*FILMES*/
+
+
+/*HOME E BUSCA LOCADOS*/
+.busca_locados { position: relative; margin-top: 25px;width: 500px;float: right; }
+.busca_locados input[type=text] { background: #fafafa; border: 1px solid #d5d5d5; padding: 10px; width: 288px;font-family: 'Cuprum';font-size: 16px; }
+.busca_locados input[type=submit] { background: url(../images/searchBtn.png) no-repeat 0 0;top: 0; right: 1px; border: none; width: 36px; height: 36px;font-size: 16px; }
+#realizando_busca{width: 900px; text-align: center;font-size: 18px;}
+/*HOME E BUSCA LOCADOS*/

@@ -1,0 +1,13 @@
+*{margin:0;padding:0;}
+body{font-family: 'Cuprum';}
+.form_cadastrar{background-color: #F4F4F4;height: 450px;}
+.form_cadastrar label{display: block;}
+.form{background-color: #F4F4F4;padding:10px;top:10px;position:relative;border-bottom: solid 1px #ccc;}
+.form .input{width:350px;height: 25px;font-size:18px;color: #333; font-family: 'Cuprum';}
+.form h2{font-size:20px;font-weight: lighter;margin-bottom:10px;color: #333;}
+.form .input_button{width: 100px;background-color: #F4F4F4;color: #333;border: solid 1px #ccc;margin-top:10px;font-family: 'Cuprum';}
+.erro{margin-top:10px;background-color: #900;color: #FFF;padding:3px;font-family: 'Cuprum';}
+.sucesso{margin-top:10px;background-color: green;color: #FFF;padding:3px;font-family: 'Cuprum';}
+.input_select{width:200px;height: 25px;font-size: 14px;font-family: 'Cuprum';}
+.form .input_file{width:300px;height: 25px;font-size: 14px;font-family: 'Cuprum';}
+.form .input_menor{width:100px;height: 25px;font-size:18px;color: #333; font-family: 'Cuprum';}

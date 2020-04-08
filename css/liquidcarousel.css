@@ -1,0 +1,30 @@
+.liquid {
+	-moz-border-radius:10px 10px 10px 10px;
+	-webkit-border-radius:10px 10px 10px 10px;
+	border-radius:10px 10px 10px 10px;
+	padding:10px 0;
+}
+.liquid .previous {
+	display:block;
+	width:25px;
+	float:left;
+	margin-top:25px;
+	padding:0;
+}
+.liquid .next {
+	display:block;
+	width:25px;
+	float:right;
+        margin-top:25px;
+	padding:0;
+}
+.liquid ul li {
+	width:110px;
+	padding:0 3px;
+	margin:0;
+}
+.liquid ul li a img {
+	-moz-box-shadow: 5px 5px 3px #222;
+   	-webkit-box-shadow: 5px 5px 3px #222;
+   	box-shadow: 5px 5px 3px #222;
+}

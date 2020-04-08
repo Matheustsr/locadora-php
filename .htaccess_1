@@ -1,0 +1,3 @@
+RewriteEngine on
+
+RewriteRule http://netfilmes.com.br/index.php?p=categoria/acao&pag=[0-9] $1.html
